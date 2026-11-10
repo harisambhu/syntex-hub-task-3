@@ -3,7 +3,7 @@
 # If you desire, you can also run this from inside Pythonwin, in which
 # case it will do the demo inside the Pythonwin environment.
 
-# This sample was contributed by Roger Burnham.
+# This sample was contributed by Roger Burnham. 
 
 import win32con
 import win32ui
