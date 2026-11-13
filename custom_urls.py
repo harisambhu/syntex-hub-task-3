@@ -26,6 +26,6 @@ except ImportError:
 from . import views
 
 urlpatterns = [
-    path("custom/ok", views.custom_ok, name="custom_ok"),
+    path("custom/ok", views.custom_ok, name="custom_ok"), 
     path("custom/exc", views.custom_exc, name="custom_exc"),
 ]
