@@ -36,7 +36,7 @@ def test_py_component_cleanup(document, comm):
     spy = SimplePyComponent(width=42)
 
     model = spy.get_root(document, comm)
-
+ 
     assert model.ref['id'] in spy._models
     assert model.ref['id'] in spy._view__._models
 
